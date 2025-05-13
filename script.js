@@ -165,17 +165,25 @@
 //   console.log("pattern:", pattern, "patternObj:", patternObj);
 //   console.log("pattern:", typeof pattern, "patternObj:", typeof patternObj);
 
-const obj = {
-  name: "John",
-  age: 30,
-  isAdmin: true,
-  hobbies: ["reading", "gaming"],
-};
+// const obj = {
+//   name: "John",
+//   age: 30,
+//   isAdmin: true,
+//   hobbies: ["reading", "gaming"],
+// };
 
-const newObj = obj;
+// const newObj = obj;
 
-newObj.name = "Alice";
-newObj.greeting = "Hello, World!";
+// newObj.name = "Alice";
+// newObj.greeting = "Hello, World!";
 
-console.log("obj-name:", obj.name);
-console.log("obj:", obj);
+// console.log("obj-name:", obj.name);
+// console.log("obj:", obj);
+
+
+
+console.log( Number('17.17'));
+
+
+
+
