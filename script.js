@@ -180,10 +180,136 @@
 // console.log("obj-name:", obj.name);
 // console.log("obj:", obj);
 
+// console.log(Number("17.17"));
 
+// ==== Function ====
 
-console.log( Number('17.17'));
+// SayHi("Anna");
 
+// function SayHi(first_name, second_name = "Cate") {
+//   let greet = "Hello";
 
+//   if (first_name && second_name) {
+//     return console.log(`${greet} ${first_name} and ${second_name}`);
+//   }
+//   if (first_name) {
+//     return console.log(`${greet} ${first_name}`);
+//   }
 
+//   console.log("no one to greeting :(");
+// }
 
+// let num = 5;
+
+// function change(x) {
+//   x = 10;
+//   console.log("x:", x);
+//   return x;
+// }
+// console.log("kjasgfjksgjdfgshj");
+
+// change(num);
+// console.log(num);
+
+// function setData(item) {
+//   let num = 0;
+//   return (num = num + item);
+//   console.log("under return");
+// }
+
+// const result = setData(17);
+// console.log(result);
+
+// const callback = (callback) => {
+//     console.log("Hello");
+//     callback;
+
+// };
+
+// const consoleW = (world) => {
+//   console.log(world);
+// };
+
+// callback(consoleW("World!"));
+
+// const factorial = function fact(n) {
+//   if (n <= 1) return 1;
+//   return n * fact(n - 1);
+// };
+// console.log(factorial(5));
+
+// const func = () => console.log("Arrow function");
+// func();
+
+// const func2 = (num) => (num <= 1 ? 1 : num * func2(num - 1));
+
+// console.log(func2(5));
+
+// const func3 = (num) => ({
+//   name: "John",
+//   age: 30,
+//   isAdmin: true,
+//   hobbies: ["reading", "gaming"],
+// });
+
+// const user = {
+//   name: "Анна",
+//   age: 25,
+//   isAdmin: "yes",
+//   sayHi: function () {
+//     setTimeout(() => {
+//       console.log("Привет, " + this.name + " " + this.age + " " + this.isAdmin);
+//     }, 1000);
+//   },
+// };
+
+// user.sayHi();
+
+// function greet(name, callback) {
+//   console.log("Привет, " + name);
+//   callback(); // вызываем переданную функцию
+// }
+
+// function sayBye() {
+//   console.log("Пока!");
+// }
+
+// greet("Анна", sayBye);
+
+// ===== Array =====
+
+// const arr2 = new Array(6, 7, 8, 9, 10);
+// const arr3 = new Array(5); // массив длиной 5
+
+const arr = [11, 22, 33, 44, 55];
+
+let fruits = [`яблоко`, 2, { киви: 3 }, [1, 2, 3]];
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+fruits.forEach((item, index) => {
+  console.log(`index: ${index}, item: ${item}`);
+});
+
+fruits.map((item, index) => {
+  console.log(`index: ${index}, item: ${item}`);
+  return item;
+});
+
+arr.push(66);
+const last = arr.pop();
+console.log("last:", last);
+
+arr.unshift(0);
+
+const first = arr.shift();
+console.log("first:", first);
+
+console.log("arr:", arr);
+
+const fruits2 = ["яблоко", "банан", "киви"];
+
+const [...others] = fruits2;
+console.log(others);
