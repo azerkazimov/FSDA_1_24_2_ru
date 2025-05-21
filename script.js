@@ -182,7 +182,10 @@
 
 // console.log(Number("17.17"));
 
+// ==================
 // ==== Function ====
+// ==================
+
 
 // SayHi("Anna");
 
@@ -199,6 +202,8 @@
 //   console.log("no one to greeting :(");
 // }
 
+// ==================
+
 // let num = 5;
 
 // function change(x) {
@@ -211,6 +216,8 @@
 // change(num);
 // console.log(num);
 
+// ==================
+
 // function setData(item) {
 //   let num = 0;
 //   return (num = num + item);
@@ -219,6 +226,8 @@
 
 // const result = setData(17);
 // console.log(result);
+
+// ==================
 
 // const callback = (callback) => {
 //     console.log("Hello");
@@ -232,11 +241,15 @@
 
 // callback(consoleW("World!"));
 
+// ==================
+
 // const factorial = function fact(n) {
 //   if (n <= 1) return 1;
 //   return n * fact(n - 1);
 // };
 // console.log(factorial(5));
+
+// ==================
 
 // const func = () => console.log("Arrow function");
 // func();
@@ -265,6 +278,8 @@
 
 // user.sayHi();
 
+// ==================
+
 // function greet(name, callback) {
 //   console.log("Привет, " + name);
 //   callback(); // вызываем переданную функцию
@@ -276,7 +291,9 @@
 
 // greet("Анна", sayBye);
 
+// =================
 // ===== Array =====
+// =================
 
 // const arr2 = new Array(6, 7, 8, 9, 10);
 // const arr3 = new Array(5); // массив длиной 5
