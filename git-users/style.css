@@ -111,6 +111,17 @@ body {
     }
 }
 
+.error {
+    background: rgba(231, 76, 60, 0.1);
+    border: 1px solid rgba(231, 76, 60, 0.3);
+    color: #e74c3c;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem 0;
+    backdrop-filter: blur(10px);
+}
+
 .users-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -236,16 +247,7 @@ body {
     box-shadow: 0 4px 15px rgba(36, 41, 46, 0.4);
 }
 
-.error {
-    background: rgba(231, 76, 60, 0.1);
-    border: 1px solid rgba(231, 76, 60, 0.3);
-    color: #e74c3c;
-    padding: 1rem;
-    border-radius: 10px;
-    text-align: center;
-    margin: 1rem 0;
-    backdrop-filter: blur(10px);
-}
+
 
 @media (max-width: 768px) {
     .header h1 {
